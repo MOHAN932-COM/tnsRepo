@@ -32,4 +32,5 @@ public class InterThread {
         hasData = false;
         notifyAll(); // wakes up all waiting threads (useful if multiple producers/consumers)
     }
+
 }
